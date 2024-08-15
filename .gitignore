@@ -1,3 +1,7 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
 .mypy_cache/
 /.coverage
 /.coverage.*
@@ -5,10 +9,19 @@
 /.python-version
 /.pytype/
 /dist/
-/docs/_build/
 /src/*.egg-info/
-__pycache__/
+
+# Documentation build
+/docs/_build/
+
+# IDE settings
 .idea/
+
+# Jupyter Notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 *.ipynb
+
+# macOS system files
+.DS_Store
+**/.DS_Store
